@@ -9,6 +9,7 @@ description = "Anigravity Env Pro"
 requires-python = ">=3.10"
 dependencies = [
     "openenv-core[core] @ git+https://github.com/meta-pytorch/OpenEnv.git",
+    "openai"
 ]
 
 [project.scripts]
