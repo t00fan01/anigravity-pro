@@ -61,6 +61,10 @@ class AnigravityEnvironment(Environment):
 
         return self._get_state(reward, done)
 
+    # ---> THIS IS THE NEW MISSING FUNCTION <---
+    def state(self) -> State:
+        return self._get_state()
+
     def _get_state(self, reward=0.0, done=False) -> State:
         obs = AnigravityObservation(
             altitude=self.altitude,
