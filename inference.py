@@ -1,7 +1,6 @@
 import asyncio
 import os
 import re
-from openai import OpenAI
 
 # We use dummy keys since we are just testing the format
 API_KEY = os.getenv("HF_TOKEN") or os.getenv("API_KEY", "dummy_key")
