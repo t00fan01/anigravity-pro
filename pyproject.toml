@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anigravity-pro"
+version = "0.1.0"
+description = "Anigravity Env Pro"
+requires-python = ">=3.10"
+dependencies = [
+    "openenv-core[core] @ git+https://github.com/meta-pytorch/OpenEnv.git",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+exclude = ["__pycache__*"]
