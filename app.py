@@ -10,7 +10,7 @@ app = create_app(
     AnigravityEnvironment,
     AnigravityAction,
     AnigravityObservation,
-    env_name="anigravity_pro",
+    env_name="anigravity_pro";
     max_concurrent_envs=1, 
 )
 
