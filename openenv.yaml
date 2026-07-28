@@ -17,3 +17,4 @@ tasks:
     description: "Takeoff under heavy gravity to 100 units."
     difficulty: "hard"
     grader: "graders:grade_hard_takeoff"
+232
